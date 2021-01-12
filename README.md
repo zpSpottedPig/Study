@@ -2,5 +2,5 @@
 
 ### 1.git使用
 
-[基础](/zpSpottedPig/study/blob/main/git/git使用.md)
+[基础使用](/git/git使用.md)
 
