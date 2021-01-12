@@ -34,3 +34,26 @@ cat ~/.ssh/id_rsa.pub
 
 GitHub添加公钥: settings-->SSh and GPG keys --> New SSH key
 
+#### 3.git文件上传
+
+GitHub创建仓库（repositories）
+
+克隆仓库分支到本地
+
+```git
+git clone git@github.com:zpSpottedPig/study.git
+```
+
+![](./image/1610443636(1).jpg)
+
+```git
+//查询修改的问题
+git status  
+//添加新增的文件 '.':添加所有文件 
+git add . 
+//暂存
+git commit -am "***" 
+//提交到远程仓库
+git push 
+```
+
