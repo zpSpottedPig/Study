@@ -4,7 +4,11 @@
 
 官网下载地址: <https://git-scm.com/downloads/>
 
+![](./image/1610431636(1).jpg)
+
  安装 一键Next , on the Desktop(添加图标在桌面上)
+
+![](./image/1610432191(1).jpg)
 
 #### 2.配置gitHub
 
