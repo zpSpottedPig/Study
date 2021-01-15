@@ -3,10 +3,10 @@
 ### 目录
 
 + [git](#git)
-  + 基础知识
+  + [基础知识](#基础知识)
 
 + [mysql](#mysql)
-  + MySQL笔记
+  + [MySQL笔记](#MySQL笔记)
 
 ---
 

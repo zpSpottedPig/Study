@@ -1,4 +1,16 @@
-<center>MySql笔记</center>
+## MySql笔记
+
+### 目录
+
++ [简介](#简介)
++ [1.MySQL安装](#1.MySQL安装)
++ [2.MySQL基础](#2.MySQL基础)
+  + [数据类型](#数据类型)
++ [3.MySQL命令](#3.MySQL命令)
+  + [用户管理](#用户管理)
+  + [数据库管理](#数据库管理)
+  + [表管理](#表管理)
+  + [desc](#desc)
 
 ### 简介
 
@@ -38,7 +50,7 @@ mysql -P3306 -uroot -proot
 
 ### 2.MySQL基础
 
-##### MySQL数据类型
+##### 数据类型
 
 主要包括以下五大类：
 
@@ -52,13 +64,13 @@ mysql -P3306 -uroot -proot
 
 ###### 整数类型
 
-| 类型                      | 字节数 | 有符号值范围                                                 | 无符号值范围                                                 |
-| ------------------------- | ------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| tinyint[(n)] [unsigned]   | 1      | [-![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml43628\wps16.jpg),![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml43628\wps17.jpg)-1] | [0,![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml43628\wps18.jpg)-1] |
-| smallint[(n)] [unsigned]  | 2      | [-![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml43628\wps31.jpg),![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml43628\wps32.jpg)-1] | [0,![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml43628\wps33.jpg)-1] |
-| mediumint[(n)] [unsigned] | 3      | [-![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml43628\wps34.jpg),![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml43628\wps35.jpg)-1] | [0,![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml43628\wps36.jpg)-1] |
-| int[(n)] [unsigned]       | 4      | [-![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml43628\wps37.jpg),![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml43628\wps38.jpg)-1] | [0,![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml43628\wps39.jpg)-1] |
-| bigint[(n)] [unsigned]    | 8      | [-![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml43628\wps40.jpg),![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml43628\wps41.jpg)-1] | [0,![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml43628\wps42.jpg)-1] |
+| 类型                      | 字节数 | 有符号值范围                       | 无符号值范围         |
+| ------------------------- | ------ | ---------------------------------- | -------------------- |
+| tinyint[(n)] [unsigned]   | 1      | [-2<sup>7</sup>,2<sup>7</sup>-1]   | [0,2<sup>8</sup>-1]  |
+| smallint[(n)] [unsigned]  | 2      | [-2<sup>15</sup>,2<sup>15</sup>-1] | [0,2<sup>16</sup>-1] |
+| mediumint[(n)] [unsigned] | 3      | [-2<sup>23</sup>,2<sup>23</sup>-1] | [0,2<sup>24</sup>-1] |
+| int[(n)] [unsigned]       | 4      | [-2<sup>31</sup>,2<sup>31</sup>-1] | [0,2<sup>32</sup>-1] |
+| bigint[(n)] [unsigned]    | 8      | [-2<sup>63</sup>,2<sup>63</sup>-1] | [0,2<sup>64</sup>-1] |
 
 注：1. []包含的内容是可选的，默认是有符号类型的，无符号的需要在类型后面跟上unsigned。
 
