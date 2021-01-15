@@ -6,7 +6,7 @@
 + [配置gitHub](#配置gitHub)
 + [git文件上传](#git文件上传)
 
-#### 1.git下载安装
+#### git下载安装
 
 官网下载地址: <https://git-scm.com/downloads/>
 
@@ -16,7 +16,7 @@
 
 ![](./image/1610432191(1).jpg)
 
-#### 2.配置gitHub
+#### 配置gitHub
 
 git生成ssh秘钥：  参考<https://www.cnblogs.com/yjlch1016/p/9692840.html>
 
@@ -40,7 +40,7 @@ cat ~/.ssh/id_rsa.pub
 
 GitHub添加公钥: settings-->SSh and GPG keys --> New SSH key
 
-#### 3.git文件上传
+#### git文件上传
 
 GitHub创建仓库（repositories）
 

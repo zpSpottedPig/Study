@@ -3,10 +3,10 @@
 ### 目录
 
 + [简介](#简介)
-+ [1.MySQL安装](#MySQL安装)
-+ [2.MySQL基础](#MySQL基础)
++ [MySQL安装](#MySQL安装)
++ [MySQL基础](#MySQL基础)
   + [数据类型](#数据类型)
-+ [3.MySQL命令](#MySQL命令)
++ [MySQL命令](#MySQL命令)
   + [用户管理](#用户管理)
   + [数据库管理](#数据库管理)
   + [表管理](#表管理)
@@ -28,7 +28,7 @@
 
 * TCL（Transaction Control Language）：事务控制语言 set autocommit=0、start transaction、savepoint、commit、rollback
 
-### 1.MySql安装
+### MySql安装
 
 window安装 ：		教程参考(<https://www.cnblogs.com/honeynan/p/12408119.html>)
 
@@ -51,7 +51,7 @@ net start mysql
 mysql -P3306 -uroot -proot
 ```
 
-### 2.MySQL基础
+### MySQL基础
 
 ##### 数据类型
 
@@ -85,7 +85,7 @@ mysql -P3306 -uroot -proot
 
 ​		
 
-### 3.MySQL命令
+### MySQL命令
 
 ##### 用户管理
 
