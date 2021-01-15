@@ -3,14 +3,17 @@
 ### 目录
 
 + [简介](#简介)
-+ [1.MySQL安装](#1.MySQL安装)
-+ [2.MySQL基础](#2.MySQL基础)
++ [1.MySQL安装](#MySQL安装)
++ [2.MySQL基础](#MySQL基础)
   + [数据类型](#数据类型)
-+ [3.MySQL命令](#3.MySQL命令)
++ [3.MySQL命令](#MySQL命令)
   + [用户管理](#用户管理)
   + [数据库管理](#数据库管理)
   + [表管理](#表管理)
   + [desc](#desc)
+  + [use](#use)
+  + [select](#select)
+  + [show](#show)
 
 ### 简介
 
