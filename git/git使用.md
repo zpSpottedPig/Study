@@ -61,5 +61,7 @@ git add .
 git commit -am "***" 
 //提交到远程仓库
 git push 
+//更新远程仓库
+git pull
 ```
 
