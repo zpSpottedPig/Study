@@ -1,4 +1,4 @@
-### 世界最好的语言JAVA
+## 世界最好的语言JAVA
 
 #### 目录
 
@@ -558,39 +558,6 @@ public @interface MyAnnotation {
 ```
 
 ### 核心类
-
-#### 常用包
-
-```txt
-• java.lang包 - 该包是Java语言的核心包，并且该包中的所有内容由Java虚拟机自动导入。
-	如：System、String
-• java.util包 - 该包是Java语言的工具包，里面提供了大量工具类以及集合类等。
-	如：Scanner、Random、List
-• java.io包 - 该包是Java语言中的输入输出包，里面提供了大量读写文件相关的类等。
-	如：FileInputStream、FileOutputStream、
-• java.net包 - 该包是Java语言中的网络包，里面提供了大量网络编程相关的类等。
-	如：ServerSocket、Socket、
-• java.sql 包 - 该包是Java语言中的数据包，里面提供了大量操作数据库的类和接口等。
-	如：DriverManager、Connection
-```
-
-#### Object
-
-基本概念
-
-```text
-• java.lang.Object类是Java语言中类层次结构的根类，也就是说任何一个类都是该类的直接或者间接子类。
-• 如果定义一个Java类时没有使用extends关键字声明其父类，则其父类为 java.lang.Object 类。
-• Object类定义了“对象”的基本行为, 被子类默认继承。
-```
-
-常用方法
-
-| 方法声明 | 功能介绍 |
-| :------: | -------- |
-|          |          |
-|          |          |
-|          |          |
 
 
 
