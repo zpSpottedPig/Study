@@ -13,7 +13,12 @@
   + [desc](#desc)
   + [use](#use)
   + [select](#select)
+  + [explain](#explain)
   + [show](#show)
++ [Mysql函数](#Mysql函数)
+  + [字符串函数](#字符串函数)
+  + [日期函数](日期函数)
+  + [常用](#常用)
 
 ### 简介
 
@@ -207,6 +212,14 @@ select version();
 select database();
 ```
 
+##### explain
+
+解释select 查询语句 参考：<https://blog.csdn.net/why15732625998/article/details/80388236>
+
+结果集：id、select_type、table、type、possible_keys、key、key_len、ref、rows、Extra
+
+
+
 ##### show
 
 ```mysql
@@ -232,6 +245,41 @@ show procedure status;
 show create procedure proc_name;
 --  查看用户权限
 show grants for 'username'; 
+```
+
+#### Mysql函数
+
+##### 字符串函数
+
+```mysql
+LEFT(str, length)  -- 从左截取length个字符
+RIGTH(str, length) -- 从右截取length个字符
+LENGTH(str) -- 字符串字节数
+CHAR_LENGTH(str) -- 字符串长度
+SUBSTR(str,n) -- 从第n个字符开始往后截取所有字符
+SUBSTR(str,n,len) -- 从第n个字符开始往后截取len个字符
+CONCAT(str1,str2) -- 合并字符串
+REPLACE(Str,char1,char) -- 替换
+GROUP_CONCAT(str) -- ',' 连接合并字符串
+```
+
+##### 日期函数
+
+```mysql
+NOW()  -- 当前时间
+CURDATE() -- 当前日期
+-- 相关枚举  CURRENT_DATE
+YEAR(date) -- 获取年
+MONTH(date) -- 获取月
+DAY(date) -- 获取日
+LAST_DAY(date) -- 日期月份的最后一天日期
+```
+
+##### 常用
+
+```mysql
+IFNULL(expre,value) 
+ROUND(num,n) -- 四舍五入
 ```
 
 
