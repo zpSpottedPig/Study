@@ -6,7 +6,7 @@
 
 #### [mysql笔记](/mysql/mysql笔记.md)
 
-#### [Linux](/Linux/linux.md)
+#### [Linux](/Linux/Linux.md)
 
-#### [spring全家桶][/spring全家桶/spring.md]
+#### [spring][/spring全家桶/spring.md]
 
