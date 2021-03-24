@@ -237,7 +237,8 @@ SHOW VARIABLES;
 SHOW VARIABLES like 'wait_timeout';
 --  查看所有事件
 show events; 
--- 查看事件状态 （开启事件：SET GLOBAL event_scheduler = 1; or SET GLOBAL event_scheduler = 'no';）
+-- 查看事件状态
+-- 开启事件：SET GLOBAL event_scheduler = 1;SET GLOBAL event_scheduler = 'no';
 show variables like 'event_scheduler';  
 -- 查看所有过程
 show procedure status;
@@ -261,6 +262,7 @@ SUBSTR(str,n,len) -- 从第n个字符开始往后截取len个字符
 CONCAT(str1,str2) -- 合并字符串
 REPLACE(Str,char1,char) -- 替换
 GROUP_CONCAT(str) -- ',' 连接合并字符串
+trim(str) -- 去除空格
 ```
 
 ##### 日期函数
@@ -273,6 +275,17 @@ YEAR(date) -- 获取年
 MONTH(date) -- 获取月
 DAY(date) -- 获取日
 LAST_DAY(date) -- 日期月份的最后一天日期
+TIMESTAMPDIFF(HOUR,t1.create_time,t2.create_time) -- 两日期小时差值
+-- 单位：
+-- MICROSECOND  微秒 
+-- SECOND  秒
+-- MINUTE  分钟
+-- HOUR  小时
+-- DAY  天
+-- WEEK  周
+-- MONTH  月份
+-- QUARTER 季度
+-- YEAR  年份
 ```
 
 ##### 常用
