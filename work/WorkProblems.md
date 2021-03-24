@@ -1,5 +1,10 @@
 ### WorkProblems工作错误日志
 
++ [Java](#Java)
++ [前端](#前端)
++ [mysql](#mysql)
++ [redis](#redis)
+
 #### Java
 
 **1.请求数据过大，传输不到后台？**

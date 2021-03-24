@@ -4,6 +4,23 @@
 
 ### 命令大全
 
++ [chmod](#chmod)
++ [cat](#cat)
++ [find](#find)
++ [df/du](#df/du)
++ [free](#free)
++ [ls/ll](#ls/ll)
++ [netstat](#netstat)
++ [pwd](#pwd)
++ [rm](#rm)
++ [sudo](#sudo)
++ [service](#service)
++ [systemctl](#systemcal)
++ [scp](#scp)
++ [tail](#tail)
++ [vi/vim](#vi/vim)
++ [grep](#grep)
+
 #### **chmod**
 
 ```linux
@@ -165,6 +182,12 @@ tail -f catalina.out       查看运行时的实时日志
 -v 查找不匹配指定字符串的行
 
 ### 系统搭建
+
++ [svn](#svn)
++ [zookeeper](#zookeeper)
++ [nginx](#nginx)
++ [mysql](#mysql)
++ [redis](#redis)
 
 #### **svn**  
 
