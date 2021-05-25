@@ -263,6 +263,7 @@ CONCAT(str1,str2) -- 合并字符串
 REPLACE(Str,char1,char) -- 替换
 GROUP_CONCAT(str) -- ',' 连接合并字符串
 trim(str) -- 去除空格
+locate('aa','aaba'); -- 校验包含 0不包含 >0 包含
 ```
 
 ##### 日期函数
@@ -286,6 +287,9 @@ TIMESTAMPDIFF(HOUR,t1.create_time,t2.create_time) -- 两日期小时差值
 -- MONTH  月份
 -- QUARTER 季度
 -- YEAR  年份
+DATE_ADD(date, INTERVAL 5 DAY) -- 日期加
+DATE_SUB(date, INTERVAL 5 DAY) -- 日期减
+DATE_FORMAT(date,formatStr) -- riq
 ```
 
 ##### 常用
